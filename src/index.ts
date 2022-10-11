@@ -1,6 +1,6 @@
 import express, { Request, Response, NextFunction } from 'express';
 import usersRoute from './routes/users.routes';
-import statusRouter from './routes/status.routes';
+import statusRouter from './routes/status.route';
 
 const app = express();
 
